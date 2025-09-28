@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Amaira Goel</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Fredericka+the+Great&family=Roboto+Mono&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hamburger button (always visible on mobile) -->
+  <button class="menu-toggle">☰</button>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="about.html">About</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+
+    <div class="socials">
+    © 2025 AMAIRA GOEL <br>All Rights Reserved.
+  </div>
+  </aside>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-content">
+    <section class="intro-box two-column">
+      <!-- Left Column: About Text -->
+      <div class="about-text">
+        <h1>About Me</h1>
+        <p>
+          Hey! I’m <span class="highlight">Amaira Goel</span>, a  Student of Vasant Valley School,New Delhi,India, who’s passionate about technology, science, squash and theatre. I’m always experimenting with new projects that push my curiosity further.
+        </p>
+        <br>
+        <p>
+          I’m also a massive Formula 1 fan 🏎️💨 — the speed, strategy, and innovation of the sport inspire me to chase excellence in everything I do.
+        </p>
+        <br>
+        <p>
+          Outside of tech, music is a huge part of my life — whether it’s playing my guitar 🎸, vibing to my favourite tracks, or just letting music bring out my inner dancer. If you're feeling the vibe, check out my Spotify playlist — it's basically the soundtrack to my brain 🧠🎶.
+        </p>
+        <br>
+        <p>
+          For me, life is about learning, building, and enjoying the ride — whether that’s through a line of code, a beat in a song, or the thrill of a race.
+        </p>
+      </div>
+
+      <!-- Right Column: Portrait + Spotify -->
+      <div class="right-column">
+        <div class="portrait">
+          <img src="amairaimg.JPG" alt="Amaira Goel Portrait" width="300">
+
+        </div>
+        <div class="spotify-embed">
+          <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/playlist/2BsBKehWzHroXpdkZD190Q?utm_source=generator" 
+            width="100%" height="380" 
+            frameborder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- JavaScript for toggle -->
+  <script>
+    const sidebar = document.querySelector('.sidebar');
+    const toggleBtn = document.querySelector('.menu-toggle');
+
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

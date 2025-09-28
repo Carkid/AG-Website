@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Amaira Goel</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hamburger button (mobile) -->
+  <button class="menu-toggle">☰</button>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li class="active"><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+    <div class="socials">
+    © 2025 AMAIRA GOEL <br>All Rights Reserved.
+  </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <section class="projects-section">
+      <h1> My Projects</h1>
+      <p class="intro">A journey through some of the projects I’ve worked on — each one a step forward in my learning path.🚀</p>
+
+      <div class="timeline">
+  
+  <!-- Project 1 -->
+  <div class="timeline-item left">
+    <div class="content">
+      <div class="simple-carousel">
+
+  <!-- Radios -->
+  <input type="radio" name="carousel" id="img1" checked>
+  <input type="radio" name="carousel" id="img2">
+  <input type="radio" name="carousel" id="img3">
+  <input type="radio" name="carousel" id="img4">
+  <input type="radio" name="carousel" id="img5">
+
+  <!-- Images (click to go next) -->
+  <div class="slides">
+    <label for="img2"><img src="D1.png"></label>
+    <label for="img3"><img src="D2.png"></label>
+    <label for="img4"><img src="D3.png"></label>
+    <label for="img5"><img src="D4.png"></label>
+    <label for="img1"><img src="D5.png"></label>
+  </div>
+
+</div>
+
+      <h2>Digital Art</h2>
+      <p>Digital drawing on my iPad is my favourite pass time. Click to look at some of my creations.</p>
+      <span class="tech">Procreate • Art </span>
+    </div>
+  </div>
+
+
+  <!-- Project 2 -->
+  <div class="timeline-item right">
+    <div class="content">
+      <div class="project-media">
+        <iframe src="https://drive.google.com/file/d/1FHtw0M-VDboZm6S9gi2mk4Emxd_2FaF3/preview" 
+        width="100%" height="250">
+</iframe>
+      <h2>Smart AI Traffic Light</h2>
+      <p>Built an IoT-enabled traffic light that turns green when it detects an ambulance or other special needs vehicles.</p>
+      <span class="tech">Arduino · Python · Sensors · AI/ML </span>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Project 3 -->
+  <div class="timeline-item left">
+    <div class="content">
+      <div class="project-media">
+  <iframe src="Kisangram ppt.pdf" 
+          width="100%" height="200" 
+          style="border-radius: 12px; border: none;">
+  </iframe>
+</div>
+      <h2>KisanGram App</h2>
+      <p>An aserving as a complete solution for crop production and management. Includes Inventory and order management, Satellite Monitoring, Live weather, livestock tracking and chatbot in both hindi and english.</p>
+      <span class="tech">AI/ML • UI/UX</span>
+
+    </div>
+  </div>
+
+
+  <!-- Project 4 -->
+  <div class="timeline-item right">
+    <div class="content">
+      <div class="project-img">
+        <img src="earthian.png" alt="Earthian">
+      </div>
+      <h2>Wipro Earthian Project</h2>
+      <p>1st Position Winner in Earthian Project- Wipro’s Sustainability Education Program for schools and Colleges. <br>Reseach project on Sustainable Waste Management.</p>
+      <span class="tech"> Reseach • Development</span>
+    </div>
+  </div>
+
+</div>
+
+    </section>
+  </main>
+
+  <!-- Sidebar toggle -->
+  <script>
+    const sidebar = document.querySelector('.sidebar');
+    const toggleBtn = document.querySelector('.menu-toggle');
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

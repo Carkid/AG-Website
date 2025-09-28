@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amaira Goel | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Fredericka+the+Great&family=Roboto+Mono&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hamburger button (always visible on mobile) -->
+  <button class="menu-toggle">☰</button>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+      <div class="socials">
+    © 2025 AMAIRA GOEL <br>All Rights Reserved.
+  </div>
+
+  </aside>
+
+  <!-- Hero Section -->
+  <main class="hero">
+    <div class="hero-text">
+      <p>Hey there! My name is</p>
+      <h1>AMAIRA GOEL</h1>
+      <p>I am a Gearhead,<br> Coder, Innovator</p>
+      <h3>... and just a human</h3>
+    </div>
+
+    <!-- Corner Frame -->
+    <div class="corners">
+      <span class="corner top-left"></span>
+      <span class="corner top-right"></span>
+      <span class="corner bottom-left"></span>
+      <span class="corner bottom-right"></span>
+    </div>
+  </main>
+
+  <!-- JavaScript for toggle -->
+  <script>
+    const sidebar = document.querySelector('.sidebar');
+    const toggleBtn = document.querySelector('.menu-toggle');
+
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

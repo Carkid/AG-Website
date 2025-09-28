@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Achievements - Amaira Goel</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hamburger button (mobile) -->
+  <button class="menu-toggle">☰</button>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="achievements.html">Achievements</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+    <div class="socials">
+    © 2025 AMAIRA GOEL <br>All Rights Reserved.
+  </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <section class="achievements-section">
+      <h1>My Achievements</h1>
+      <p class="intro">Here’s a glimpse into the milestones I’ve achieved across academics, tech, arts, and sports 🚀</p>
+
+      <div class="achievements-grid">
+        
+        <!-- Academic -->
+        <div class="achievement-card">
+          <h2>🥇 Academics</h2>
+          <p> -> School topper in Grade 10 with an aggregate score of <strong>98.2%</strong></p> <br><br> 
+          <p> -> Scholastic Excellence Award winner in <em>Maths, Social Science, English and Hindi</em></p>
+          <img src="academicimg.jpg" alt="School board" style="width:50%;border-radius:8px;margin-left: 50px;margin-bottom:12px;">
+           </div>
+
+
+
+        <!-- IBM -->
+        <div class="achievement-card ibm">
+          <h3>🎤 Ambassador for IBM</h3>
+          <img src="ibm-event.jpg" alt="IBM Event" style="width:100%;border-radius:8px;margin-bottom:12px;">
+          <p> -> Student Ambassador for <strong>IBM</strong></p><br>
+          <p> -> Delivered an <em>Impact Talk</em> at the prestigious <strong>IBM Annual SkillsBuild Event 2022 </strong> for building a Travel Planning AI assistant</p>
+        </div>
+
+        <!-- IT Certifications -->
+        <div class="achievement-card certifications">
+        <h2> IT Certifications</h2>
+        <p>
+    -> 3D GAME DEVELOPMENT: Advanced Level <br>
+    -> AI & MACHINE LEARNING: Advanced Level <br>
+    -> BUILD YOUR OWN CHATBOT: IBM Training & Certification <br>
+    -> BLOCKCHAIN & CYBERSECURITY: IBM SkillsBuild
+       </p>
+
+      <div class="certification-gallery">
+      <img src="Certificate3GAM.jpg" alt="Certification 1">
+      <img src="Certificate3AI.jpg" alt="Certification 2">
+      <img src="badge1.jpg" alt="Certification 3">
+      <img src="badge2.png" alt="Certification 4">
+      </div>
+      </div>
+
+          <!-- Tech -->
+        <div class="achievement-card">
+          <h2>💻 Tech & Coding</h2>
+          <p> -> First position in multiple interschool <em>coding, robotics, and design hackathons <br><br> -> Top 10 India Level in National Design Championship 2023</em></p>
+        </div>
+
+
+        <!-- Theatre -->
+        <div class="achievement-card">
+          <h2>🎭 Theatre & Arts</h2>
+          <p> -> Winner in interschool theatre competitions- Mime, Nukkad Natak, Improv, Monologue</p>
+          <p> -> Lead Actor in <em>school Annual Day productions</em></p>
+        </div>
+
+        
+
+        <!-- Sports -->
+        <div class="achievement-card">
+          <h2>🎾 Sports</h2>
+          <p> -> Silver Medal at <strong>Delhi Opens Inline Skating Championship</strong>.</p>
+          <p> -> Actively participated in <em>Squash</em> and <em>Tennis tournaments</em>.</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- JavaScript for sidebar toggle -->
+  <script>
+    const sidebar = document.querySelector('.sidebar');
+    const toggleBtn = document.querySelector('.menu-toggle');
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
